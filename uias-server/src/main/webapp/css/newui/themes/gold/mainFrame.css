@@ -1,0 +1,20 @@
+/* 主题色：rgba(255, 134, 39, 1);//#FF8627 字体颜色：rgba(0, 0, 0, 0.85);//#262626 字体大小：12px; */
+.root {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.icon {
+    margin: 0;
+}
+
+.iconfont {
+    font-size: 12px;
+    color: inherit;
+}
+
+.iconfont:hover {
+    color: inherit;
+}
+

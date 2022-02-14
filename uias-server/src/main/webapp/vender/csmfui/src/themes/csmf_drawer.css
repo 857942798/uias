@@ -1,0 +1,82 @@
+/* 动态抽屉 拖拽 */
+.el-drawer.rtl.el-drawer-draggable {
+    padding-left: 12px;
+}
+
+.el-drawer.rtl.el-drawer-draggable > .el-drawer-drag-el {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #8C8C8C;
+    background: rgba(0, 0, 0, 0.02);
+    transition: all 0.3s;
+}
+
+.el-drawer.rtl.el-drawer-draggable.is-dragging {
+    user-select: none;
+}
+
+.el-drawer.rtl.el-drawer-draggable.is-dragging > .el-drawer-drag-el {
+    background: rgba(0, 0, 0, 0.06);
+    color: #565656;
+}
+
+.el-drawer.rtl.el-drawer-draggable > .el-drawer-drag-el:hover,
+.el-drawer.rtl.el-drawer-draggable > .el-drawer-drag-el:focus {
+    background: rgba(0, 0, 0, 0.06);
+    color: #565656;
+}
+
+.el-drawer.rtl.el-drawer-draggable > .el-drawer-drag-el > i.el-icon-more {
+    transform: rotateZ(90deg);
+    margin: 0;
+    width: 100px;
+    cursor: col-resize;
+    line-height: 12px;
+}
+
+.el-drawer.rtl.csmf-drawer .el-drawer__content {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.el-drawer.rtl.csmf-drawer .el-drawer__content .dialog-content {
+    height: 100%;
+    width: 100%;
+}
+
+.el-drawer.rtl.csmf-drawer .el-drawer__content .dialog-content .dialog-form {
+    height: 100%;
+    width: 100%;
+}
+
+.csmf-drawer .dialog-form .csmf-form {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.csmf-drawer .dialog-form .csmf-form .csmf-form-body {
+    flex: 1 1;
+    flex-basis: 0;
+    overflow: auto;
+    padding: 20px 16px;
+    border: 1px solid #dcdcdc;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.csmf-drawer .dialog-form .csmf-form .csmf-form-footer > .csmf-toolbar {
+    padding: 12px 16px;
+    text-align: right;
+    box-sizing: border-box;
+    width: 100%;
+}

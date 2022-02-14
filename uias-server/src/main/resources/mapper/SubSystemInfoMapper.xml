@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org/DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.ds.uias.server.mapper.SubSystemInfoMapper">
+
+    <sql id="subSystemInfoColumns">
+        _id,name,sub_system_code,url,status,remark,mac,ip
+    </sql>
+
+    <select id="getSubSystemInfo" parameterType="java.util.Map" resultType="java.util.Map">
+        select
+        <include refid="subSystemInfoColumns"/>
+        from sso_sub_system_info
+    </select>
+
+</mapper>

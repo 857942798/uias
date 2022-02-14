@@ -1,0 +1,41 @@
+.el-input-label {
+    display: inline-block;
+    width: 100%;
+}
+
+.el-input-label-tags {
+    min-height: 32px;
+    border: 1px solid #D9D9D9;
+    border-bottom: none;
+    padding: 0 5px;
+    overflow: hidden;
+}
+
+.el-input-label-tags .el-tag {
+    width: 100%;
+    position: relative;
+}
+
+.el-input-label-tags .el-tag .el-icon-close {
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+
+.el-input-label-input {
+    display: inline-flex;
+    width: 100%;
+}
+
+.el-input-label-input > .el-input,
+.el-input-label-input > .el-select,
+.el-input-label-input > .el-cascader,
+.el-input-label-input > .el-range-editor {
+    flex: 1 1;
+    flex-basis: 0;
+}
+
+.el-input-label-input > .el-button {
+    border-radius: 0;
+    border-left: none;
+}

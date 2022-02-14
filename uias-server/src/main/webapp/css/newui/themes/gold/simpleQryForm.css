@@ -1,0 +1,10 @@
+.simple-qry-form {
+}
+.simple-qry-form .csmf-form{
+    background: #FFF;
+    padding: 18px 16px;
+    margin: 0 0 12px 0;
+}
+.simple-qry-form .el-form .el-row:last-child {
+    margin-bottom: -18px;
+}

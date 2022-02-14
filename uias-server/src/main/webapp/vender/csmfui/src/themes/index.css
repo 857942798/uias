@@ -1,0 +1,38 @@
+[v-cloak] {
+    display: none;
+}
+.hidden{
+    display: none;
+    visibility: hidden;
+}
+/* elementui extra */
+.el-message-loading {
+    min-width: 150px;
+}
+
+.el-message-loading i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #1890FF;
+}
+
+.el_form_auto_layout {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.el_form_auto_layout .el_form_auto_layout_toolbar {
+    width: auto;
+    margin-left: auto;
+    line-height: 0;
+    font-size: 0;
+}
+.el_form_auto_layout .el_form_auto_layout_toolbar .el-form-item__content{
+    line-height: 0;
+    font-size: 0;
+}
+.el-cascader__dropdown,
+.el-select-dropdown{
+    max-width: 100%;
+}
+

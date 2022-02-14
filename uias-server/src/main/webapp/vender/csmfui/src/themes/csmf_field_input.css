@@ -1,0 +1,19 @@
+.el-input-group__append .el-input,
+.el-input-group__prepend .el-input {
+    display: inline-block;
+    margin: -10px -20px;
+    min-width: 100px;
+}
+
+.el-input-group__append .el-input .el-input__inner,
+.el-input-group__append .el-input:hover .el-input__inner,
+.el-input-group__prepend .el-input .el-input__inner,
+.el-input-group__prepend .el-input:hover .el-input__inner {
+    border-color: transparent;
+    background-color: transparent;
+    color: inherit;
+}
+
+.input_append_input .el-input-group__append {
+    background-color: #FFF;
+}

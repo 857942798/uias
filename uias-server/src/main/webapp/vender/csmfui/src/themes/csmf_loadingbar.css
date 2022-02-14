@@ -1,0 +1,75 @@
+#loadingbar {
+    pointer-events: none
+}
+
+#loadingbar .bar {
+    background: rgba(255, 134, 39, 1);
+    position: fixed;
+    z-index: 1031;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px
+}
+
+#loadingbar .peg {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(255, 134, 39, 1), 0 0 5px rgba(255, 134, 39, 1);
+    opacity: 1;
+    -webkit-transform: rotate(3deg) translate(0, -4px);
+    -ms-transform: rotate(3deg) translate(0, -4px);
+    transform: rotate(3deg) translate(0, -4px)
+}
+
+#loadingbar .spinner {
+    display: none;
+    position: fixed;
+    z-index: 1031;
+    top: 15px;
+    right: 10px;
+    transition: all 0.5s;
+}
+
+#loadingbar .spinner-icon {
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-top-color: #29d;
+    border-left-color: #29d;
+    border-radius: 50%;
+    -webkit-animation: loadingbar-spinner 700ms linear infinite;
+    animation: loadingbar-spinner 400ms linear infinite;
+    /*background-image: url("images/newui/logo/logo.svg");*/
+}
+
+.loadingbar-custom-parent {
+    overflow: hidden;
+    position: relative
+}
+
+.loadingbar-custom-parent #loadingbar .spinner, .loadingbar-custom-parent #loadingbar .bar {
+    position: absolute
+}
+
+@-webkit-keyframes loadingbar-spinner {
+    0% {
+        -webkit-transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+@keyframes loadingbar-spinner {
+    0% {
+        transform: rotate(0)
+    }
+    100% {
+        transform: rotate(360deg)
+    }
+}

@@ -1,0 +1,39 @@
+.csmf-table-actionbar {
+    margin-left: auto;
+    font-size: 0;
+}
+
+.csmf-table-actionbar .actionbar-item {
+    padding: 0 5px;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: transparent;
+    background: transparent;
+    color: #595959;
+    display: inline-block;
+    line-height: 1;
+}
+
+.csmf-table-actionbar .actionbar-item .el-button--text {
+    color: #595959;
+    font-size: 12px;
+    border-color: transparent;
+    background: transparent;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.csmf-table-actionbar .actionbar-item .el-button--text:focus,
+.csmf-table-actionbar .actionbar-item .el-button--text:hover {
+    color: #262626;
+}
+
+.csmf-table-actionbar .actionbar-item .el-button--text:active {
+    color: #262626;
+    background-color: transparent;
+    transform: scale(1.05);
+}
+
+.csmf-table-actionbar .actionbar-item + .actionbar-item {
+    margin-left: 5px;
+}

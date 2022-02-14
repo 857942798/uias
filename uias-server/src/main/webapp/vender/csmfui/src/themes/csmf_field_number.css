@@ -1,0 +1,65 @@
+.el-input-number--numberrange .el-range-input {
+    flex: 1 1;
+    flex-basis: 0;
+    line-height: 1;
+    width: auto;
+    height: 100%;
+}
+
+.el-input-number--numberrange .el-range-input > .el-input {
+    height: 100%;
+}
+
+.el-input-number--numberrange .el-range-input > .el-input > .el-input__inner {
+    height: 100%;
+    border: none;
+}
+
+.el-input-number--numberrange .el-range-input.el-range-input-left > .el-input > .el-input__inner {
+    padding-left: 35px;
+    padding-right: 15px;
+}
+
+.el-input-number--numberrange .el-range-input.el-range-input-left > .el-input-number__decrease {
+    left: -10px;
+    bottom: -3px;
+    border-left: none;
+    border-right: 1px solid #D9D9D9;
+    border-radius: 0 0 0 2px;
+}
+
+.el-input-number--numberrange .el-range-input.el-range-input-left > .el-input-number__increase {
+    left: -10px;
+    top: -3px;
+    border-bottom: 1px solid #D9D9D9;
+    border-right: 1px solid #D9D9D9;
+    border-left: none;
+    border-radius: 2px 0 0 0;
+}
+
+.el-input-number--numberrange .el-range-input.el-range-input-right > .el-input > .el-input__inner {
+    padding-left: 15px;
+    padding-right: 35px;
+}
+
+.el-input-number--numberrange .el-range-input.el-range-input-right > .el-input-number__decrease {
+    right: -10px;
+    bottom: -3px;
+}
+
+.el-input-number--numberrange .el-range-input.el-range-input-right > .el-input-number__increase {
+    right: -10px;
+    top: -3px;
+}
+
+.el-input-number--numberrange .el-range-separator {
+    display: inline-block;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+    width: 24px;
+    color: #262626;
+}

@@ -1,0 +1,31 @@
+.frame-class-tab {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1 1;
+    flex-basis: 0;
+}
+
+.frame-class-tab > .el-tabs {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1;
+    height: 100%;
+    flex-basis: 0;
+}
+
+.frame-class-tab > .el-tabs > .el-tabs__header {
+    background-color: white;
+    margin: 0;
+    padding: 0 20px;
+    box-shadow: 0 2px 8px 0 rgba(29, 35, 41, .05);
+    z-index: 1;
+}
+
+.frame-class-tab > .el-tabs > .el-tabs__header > .el-tabs__nav-wrap::after {
+    background: none;
+}
+
+.frame-class-tab > .el-tabs > .el-tabs__content {
+    overflow: auto;
+}

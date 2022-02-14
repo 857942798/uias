@@ -1,0 +1,76 @@
+.csmf-table {
+    width: 100%;
+}
+
+.csmf-table-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.csmf-table-header .csmf-table-topbar{
+    width: 100%;
+    padding-bottom: 12px;
+    display: flex;
+    flex-direction: row;
+}
+.csmf-table-header .csmf-table-topbar .csmf-table-actionbar{
+    margin-left: auto;
+}
+.csmf-table-body {
+    width: 100%;
+}
+
+.csmf-table-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.csmf-table-footer > * {
+    flex: 1;
+    margin-top: 12px;
+}
+
+.csmf-table .el-table th > .cell {
+    display: inline-flex;
+    align-items: center;
+}
+
+.csmf-table .el-table th > .cell > span.csmf-table-header-title{
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.csmf-table .el-table .cell,
+.csmf-table .el-table th > .cell,
+.csmf-table .el-table-column--selection .cell {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.csmf-table .el-table--border td:first-child .cell,
+.csmf-table .el-table--border th:first-child .cell {
+    padding-left: 10px;
+}
+
+.csmf-table .el-table th > .cell {
+    display: inline-flex;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    vertical-align: middle;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.csmf-table .csmf-column-operation > * {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.csmf-table .csmf-column-operation > *:first-child {
+    margin-left: 0;
+}

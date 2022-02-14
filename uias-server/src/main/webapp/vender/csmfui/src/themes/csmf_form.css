@@ -1,0 +1,192 @@
+.csmf-form .csmf-form-body {
+    position: relative;
+}
+
+.csmf-form .csmf-form-footer {
+    line-height: 0;
+    font-size: 0;
+    position: relative;
+}
+
+.csmf-form .el-form .el-form-item > .el-form-item__content > span {
+    display: inline-block;
+    width: 100%;
+}
+
+.csmf-form .el-form .el-form-item > .el-form-item__content > span > .el-select,
+.csmf-form .el-form .el-form-item > .el-form-item__content > span > .el-range-editor,
+.csmf-form .el-form .el-form-item > .el-form-item__content > span > .el-input-number,
+.csmf-form .el-form .el-form-item > .el-form-item__content > span > .el-cascader,
+.csmf-form .el-form .el-form-item > .el-form-item__content > span > .el-transfer,
+.csmf-form .el-form .el-form-item > .el-form-item__content > span > .el-input,
+.csmf-form .el-form .el-form-item > .el-form-item__content > span > .quill-editor {
+    width: 100%;
+}
+
+.csmf-form .el-form .el-form-item > .el-form-item__content > span > .quill-editor {
+    display: inline-block;
+}
+
+.csmf-form .el-form.el-form--label-left .el-form-item > .el-form-item__label {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.csmf-form .el-form.el-form--label-right .el-form-item > .el-form-item__label {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.csmf-form .el-form.el-form--label-top .el-form-item > .el-form-item__label {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+}
+
+.csmf-form .el-form .el-form-item.el-form-item--label-left > .el-form-item__label {
+    float: left;
+    text-align: right;
+    padding: 0 12px 0 0;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.csmf-form .el-form .el-form-item.el-form-item--label-right > .el-form-item__label {
+    float: left;
+    text-align: right;
+    padding: 0 12px 0 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.csmf-form .el-form .el-form-item.el-form-item--label-top > .el-form-item__label {
+    float: none;
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    width: auto !important;
+}
+
+.csmf-form .el-form .el-form-item.el-form-item--label-top > .el-form-item__content {
+    margin-left: 0 !important;
+}
+
+.csmf-form .el-form .el-form-item.is-label-hidden > .el-form-item__label {
+    display: none;
+}
+
+.csmf-form .el-form.el-form--label-left .el-form-item > .el-form-item__label > .form_item_label,
+.csmf-form .el-form.el-form--label-right .el-form-item > .el-form-item__label > .form_item_label {
+    display: flex;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.csmf-form .el-form.el-form--label-top .el-form-item > .el-form-item__label > .form_item_label {
+    display: inline-block;
+}
+
+.csmf-form .el-form .el-form-item.el-form-item--label-left > .el-form-item__label > .form_item_label,
+.csmf-form .el-form .el-form-item.el-form-item--label-right > .el-form-item__label > .form_item_label {
+    display: flex;
+    max-width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.csmf-form .el-form .el-form-item.el-form-item--label-top > .el-form-item__label > .form_item_label {
+    display: inline-block;
+    white-space: normal;
+    overflow: visible;
+}
+
+.csmf-form .el-form.el-form--label-left .el-form-item > .el-form-item__label > .form_item_label:after,
+.csmf-form .el-form.el-form--label-right .el-form-item > .el-form-item__label > .form_item_label:after,
+.csmf-form .el-form.el-form--label-top .el-form-item > .el-form-item__label > .form_item_label:after {
+    content: ":";
+    width: 3px;
+    text-align: right;
+    margin-right: 0;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.csmf-form .el-form .el-form-item.el-form-item--label-left > .el-form-item__label > .form_item_label:after,
+.csmf-form .el-form .el-form-item.el-form-item--label-right > .el-form-item__label > .form_item_label:after,
+.csmf-form .el-form .el-form-item.el-form-item--label-top > .el-form-item__label > .form_item_label:after {
+    content: ":";
+    width: 3px;
+    text-align: right;
+    margin-right: 0;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.csmf-form .el-form.el-form--label-left .el-form-item > .el-form-item__label > .form_item_label > .form_item_text,
+.csmf-form .el-form.el-form--label-right .el-form-item > .el-form-item__label > .form_item_label > .form_item_text,
+.csmf-form .el-form.el-form--label-top .el-form-item > .el-form-item__label > .form_item_label > .form_item_text,
+.csmf-form .el-form .el-form-item.el-form-item--label-left > .el-form-item__label > .form_item_label > .form_item_text,
+.csmf-form .el-form .el-form-item.el-form-item--label-right > .el-form-item__label > .form_item_label > .form_item_text,
+.csmf-form .el-form .el-form-item.el-form-item--label-top > .el-form-item__label > .form_item_label > .form_item_text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.csmf-form .el-form.el-form--label-left .el-form-item > .el-form-item__label > .form_item_label > .form_item_pop > i,
+.csmf-form .el-form.el-form--label-right .el-form-item > .el-form-item__label > .form_item_label > .form_item_pop > i,
+.csmf-form .el-form.el-form--label-top .el-form-item > .el-form-item__label > .form_item_label > .form_item_pop > i,
+.csmf-form .el-form .el-form-item.el-form-item--label-left > .el-form-item__label > .form_item_label > .form_item_pop > i,
+.csmf-form .el-form .el-form-item.el-form-item--label-right > .el-form-item__label > .form_item_label > .form_item_pop > i,
+.csmf-form .el-form .el-form-item.el-form-item--label-top > .el-form-item__label > .form_item_label > .form_item_pop > i {
+    width: 16px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(24, 144, 255);
+}
+
+.csmf-form .el-form .el-form-item > .el-form-item__content .el-form-item_text__content {
+    color: #595959;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    word-break: break-all;
+    position: relative;
+}
+
+.csmf-form .el-form .el-form-item > .el-form-item__content .el-form-item_text__content.ellipsis {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.csmf-form .el-form .el-form-item > .el-form-item__content .el-form-item_text__content.show-more {
+    padding-bottom: 0;
+    padding-right: 0;
+}
+
+.csmf-form .el-form .el-form-item > .el-form-item__content .el-form-item_text__content.ellipsis.show-more {
+    padding-right: 40px;
+
+}
+
+.csmf-form .el-form .el-form-item > .el-form-item__content .el-form-item_text__content.show-more .t-more {
+    position: absolute;
+    line-height: inherit;
+    font-size: 12px;
+    color: #0babf4;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+    opacity: 0.4;
+    transition: opacity 0.3s;
+}
+
+.csmf-form .el-form .el-form-item > .el-form-item__content .el-form-item_text__content.show-more:hover .t-more {
+    opacity: 0.9;
+}

@@ -1,0 +1,39 @@
+.csmf-panel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.csmf-panel-title {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #bcbcbc;
+    border-bottom-width: 0!important;
+}
+
+.csmf-panel-body {
+    border: 1px solid #bcbcbc;
+    background: white;
+    overflow: hidden;
+    flex: 1 1;
+    flex-basis: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.csmf-panel-topbar {
+
+}
+
+.csmf-panel-main {
+    flex: 1 1;
+    flex-basis: auto;
+}
+
+.csmf-panel-bottombar {
+
+}

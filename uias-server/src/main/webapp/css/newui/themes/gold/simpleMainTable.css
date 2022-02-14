@@ -1,0 +1,7 @@
+.simple-main-table {
+    background: #FFF;
+    padding: 20px 16px;
+    margin: 0 0 12px 0;
+    display: flex;
+    flex-direction: column;
+}

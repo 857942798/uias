@@ -1,0 +1,15 @@
+.csmf-table-set .el-form-item {
+    margin-bottom: 10px;
+}
+
+.csmf-table-set .el-alert--info {
+    line-height: 1;
+    margin: 0px 0 8px 0;
+}
+
+.csmf-table-set .el-checkbox__label {
+    width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

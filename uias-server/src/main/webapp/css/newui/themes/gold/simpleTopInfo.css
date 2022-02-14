@@ -1,0 +1,40 @@
+.frame-top-info {
+    background: #FFF;
+    padding: 0 22px;
+    margin: 0 0 12px 0;
+}
+
+.frame-top-info-header {
+    padding: 20px 0 16px 0;
+}
+
+.frame-top-info-header span {
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.frame-top-info-content {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.85);
+    padding-bottom: 12px;
+}
+
+.frame-top-info-content > div {
+    line-height: 18px;
+    margin: 0 0 8px 0;
+    height: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.frame-top-info-footer .el-tabs__header {
+    margin: 0;
+}
+
+.frame-top-info-footer .el-tabs__header .el-tabs__nav-wrap::after {
+    background: none;
+}

@@ -1,0 +1,46 @@
+/*
+ * Translated default messages for the jQuery validation plugin.
+ * Language: CN
+ * Author: Fayland Lam <fayland at gmail dot com>
+ */
+jQuery.extend(jQuery.validator.messages, {
+        required: "该项不能为空",
+		remote: "请修正该字段",
+		email: "请输入正确格式的电子邮件",
+		email2: "请输入正确格式的电子邮件",
+		url: "请输入合法的网址",
+		date: "请输入合法的日期",
+		dateISO: "请输入合法的日期 (ISO).",
+		number: "请输入合法的数字",
+		digits: "只能输入整数",
+		positiveInteger: "只能输入正整数",
+		checkIP: "请输入正确的IP地址",
+		checkSpace: "输入的字符串前后不能包括空格",
+		checkMAC:"请输入正确的Mac地址",
+        checkUser:"用户名只能输入数字或者字母",
+        checkOption: "请输入正确的option值",
+        checkDataType:"根据数据类型输入正确的数据",
+        maxValue: "请输入正确的数值",
+		checkIPV4: "请输入正确的IPV4地址",
+		checkIPV46: "请输入正确的IPV4或者IPV6地址",
+		checkIPA: "请输入正确的IPV4和地址或者地址段",
+		checkIPS: "请输入正确的IPV4地址",
+		checkIPName: "请输入合法的视图名称",
+		checkDomainName:"域名输入格式不正确",
+		checkLinkName:"链路名称只能输入数字或者字母",
+		regVali:"请填写合法的限制数或者请填写正整数",
+		UnRegVali:"请输入合法的字段",
+		creditcard: "请输入合法的信用卡号",
+		checkDomain:"请输入(以点号分割长度不超过63,总长度不超过255)的域名",
+		checkAuthDomain:"请输入正确的授权域",
+		equalTo: "请再次输入相同的值",
+		accept: "请输入拥有合法后缀名的字符串",
+        informalIP:"不合法的IP地址",
+        precision:"请输入合法数字(最多保留2位小数)",
+		maxlength: jQuery.format("输入长度不能超过 {0} 个字"),
+		minlength: jQuery.format("请输入一个长度最少是 {0} 的字符串"),
+		rangelength: jQuery.format("请输入一个长度介于 {0} 和 {1} 之间的字符串"),
+		range: jQuery.format("请输入一个介于 {0} 和 {1} 之间的值"),
+		max: jQuery.format("请输入一个最大为 {0} 的值"),
+		min: jQuery.format("请输入一个最小为 {0} 的值")
+});

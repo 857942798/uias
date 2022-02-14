@@ -1,0 +1,8 @@
+.csmf-toolbar {
+    display: inline-block;
+}
+
+.csmf-toolbar > .csmf-button + .csmf-button,
+.csmf-toolbar > .csmf-button + .el-dropdown {
+    margin-left: 10px;
+}

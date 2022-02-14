@@ -1,0 +1,53 @@
+@charset "utf-8";
+@font-face {
+    font-family: "DigitalFont";
+    src: url('../../fonts/digital-webfont.eot');
+    src: url('../../fonts/digital-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../../fonts/digital-webfont.woff') format('woff'), /* chrome, firefox */ url('../../fonts/Digital.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+}
+
+.plan-next-time {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px 45px;
+    background: #fbfbfb;
+}
+
+.plan-next-time .plan-next-time-title {
+    color: #48ac2e;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.plan-next-time .plan-next-time-box {
+    color: #fff;
+}
+
+.plan-next-time .time, .plan-next-time .date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #48ac2e;
+    border-radius: 4px;
+    height: 70px;
+    line-height: 70px;
+    font-family: DigitalFont;
+    font-size: 55px;
+    flex-direction: column;
+}
+
+.plan-next-time .day {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.plan-next-time .week {
+    background: #fff;
+    padding: 0px 11px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #48ac2e;
+    font-weight: 600;
+}
